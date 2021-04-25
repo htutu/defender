@@ -51,13 +51,6 @@ function defender.startplugin()
 
 			ioport.ports[":IN0"].fields["Reverse"]:set_value(reverse and 1 or 0)
 			ioport.ports[":IN0"].fields["Thrust"]:set_value(thrust and 1 or 0)
-
-			-- local direction_str = direction == DIRECTION_LEFT and "left" or direction == DIRECTION_RIGHT and "right" or "unkown:" .. string.format("%x", direction)
-			-- screen:draw_text(10, 0, "direction:" .. direction_str);
-			-- screen:draw_text(10, 10, "input_left:" .. tostring(input_left));
-			-- screen:draw_text(10, 20, "input_right:" .. tostring(input_right));
-			-- screen:draw_text(10, 30, "reverse:" .. tostring(reverse));
-			-- screen:draw_text(10, 40, "thrust:" .. tostring(thrust));
 		end
 	end)
 
