@@ -1,0 +1,10 @@
+{
+  "plugin": {
+	"name": "defender",
+	"description": "defender 8-way control plugin",
+	"version": "0.0.1",
+	"author": "tutu",
+	"type": "plugin",
+	"start": "false"
+  }
+}
